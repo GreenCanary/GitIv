@@ -13,6 +13,7 @@ namespace GitIv
             Console.Write("x = ");
             double x = Double.Parse(Console.ReadLine());
             Console.WriteLine("y = " + (Math.Sin(x) - Math.Cos(x)) / 5);
+            Console.Write("Press any key to exit the program");
             Console.ReadKey();
         }
     }
